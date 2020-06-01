@@ -1,0 +1,21 @@
+name: flutter_device
+description: A new flutter plugin project.
+version: 1.0.0
+author: Helder Farias
+homepage: https://github.com/helderfarias/flutter_device
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: br.com.cnp.device
+    pluginClass: DevicePlugin
